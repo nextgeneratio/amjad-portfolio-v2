@@ -7,6 +7,18 @@
       "subject": "checkout"
     },
     {
+      "id": "flow:drive-adding-a-rathna-stores-cake-updates-the-sample-c",
+      "statement": "Adding a Rathna Stores cake updates the sample cart subtotal.",
+      "status": "proposed",
+      "subject": "drive-adding-a-rathna-stores-cake-update"
+    },
+    {
+      "id": "flow:drive-submitting-the-rathna-stores-demo-checkout-shows",
+      "statement": "Submitting the Rathna Stores demo checkout shows confirmation without s…",
+      "status": "proved",
+      "subject": "drive-submitting-the-rathna-stores-demo"
+    },
+    {
       "id": "flow:drive-the-theme-control-updates-the-real-subscribable",
       "statement": "The theme control updates the real subscribable theme state and the vis…",
       "status": "proved",
@@ -37,9 +49,39 @@
       "subject": "login"
     },
     {
+      "id": "inline:a-non-empty-rathna-stores-sample-cart-opens-the-186c6a0f",
+      "statement": "A non-empty Rathna Stores sample cart opens the demo checkout form.",
+      "status": "proved",
+      "subject": "projects"
+    },
+    {
+      "id": "inline:adding-the-classic-butter-cake-increments-the-ra-9707942f",
+      "statement": "Adding the Classic Butter Cake increments the Rathna Stores demo cart.",
+      "status": "proved",
+      "subject": "projects"
+    },
+    {
+      "id": "inline:proceeding-from-a-non-empty-rathna-stores-cart-o-7a76ceff",
+      "statement": "Proceeding from a non-empty Rathna Stores cart opens the demo checkout…",
+      "status": "proved",
+      "subject": "projects"
+    },
+    {
       "id": "inline:rathna-stores-portfolio-case-study-describes-a-r-d6474040",
       "statement": "Rathna Stores portfolio case study describes a repository and does not…",
       "status": "proposed",
+      "subject": "projects"
+    },
+    {
+      "id": "inline:submitting-the-rathna-stores-demo-checkout-shows-9c3dcca2",
+      "statement": "Submitting the Rathna Stores demo checkout shows confirmation without s…",
+      "status": "proved",
+      "subject": "projects"
+    },
+    {
+      "id": "inline:submitting-the-sample-rathna-stores-checkout-sho-dd261388",
+      "statement": "Submitting the sample Rathna Stores checkout shows confirmation, clears…",
+      "status": "proved",
       "subject": "projects"
     },
     {
@@ -65,6 +107,12 @@
       "statement": "The theme toggle changes the saved application theme and updates the re…",
       "status": "proved",
       "subject": "theme"
+    },
+    {
+      "id": "inline:adding-a-rathna-stores-cake-updates-the-sample-c-1c5d3f70",
+      "statement": "Adding a Rathna Stores cake updates the sample cart subtotal.",
+      "status": "proposed",
+      "subject": "unsorted"
     },
     {
       "id": "inline:the-portfolio-homepage-has-no-login-or-checkout-4deb9685",

@@ -1,0 +1,109 @@
+{
+  "version": 2,
+  "name": "drive-submitting-the-rathna-stores-demo-checkout-shows",
+  "projectId": "amjad-portfolio-0c8d6b8a",
+  "createdAt": 1792250776375,
+  "steps": [
+    {
+      "tool": "reticle_act_sequence",
+      "anchor": {
+        "kind": "testid",
+        "value": "store-checkout-name",
+        "source": {
+          "file": "src/components/projects/RathnaStoreDemo.tsx",
+          "line": 134,
+          "column": 18
+        }
+      },
+      "steps": [
+        {
+          "tool": "reticle_act",
+          "anchor": {
+            "kind": "testid",
+            "value": "store-checkout-name",
+            "source": {
+              "file": "src/components/projects/RathnaStoreDemo.tsx",
+              "line": 134,
+              "column": 18
+            }
+          },
+          "args": {
+            "value": "Test Customer"
+          },
+          "action": "fill"
+        },
+        {
+          "tool": "reticle_act",
+          "anchor": {
+            "kind": "testid",
+            "value": "store-checkout-email",
+            "source": {
+              "file": "src/components/projects/RathnaStoreDemo.tsx",
+              "line": 138,
+              "column": 18
+            }
+          },
+          "args": {
+            "value": "test@example.com"
+          },
+          "action": "fill"
+        },
+        {
+          "tool": "reticle_act",
+          "anchor": {
+            "kind": "testid",
+            "value": "store-checkout-address",
+            "source": {
+              "file": "src/components/projects/RathnaStoreDemo.tsx",
+              "line": 142,
+              "column": 18
+            }
+          },
+          "args": {
+            "value": "123 Sample Street, Colombo"
+          },
+          "action": "fill"
+        }
+      ],
+      "page": "/projects/rathna-stores"
+    },
+    {
+      "tool": "reticle_act",
+      "anchor": {
+        "kind": "testid",
+        "value": "store-place-demo-order",
+        "source": {
+          "file": "src/components/projects/RathnaStoreDemo.tsx",
+          "line": 144,
+          "column": 16
+        }
+      },
+      "args": {},
+      "action": "click",
+      "expect": {
+        "kind": "text",
+        "contains": "Demo order placed successfully"
+      },
+      "timeoutMs": 10000,
+      "page": "/projects/rathna-stores"
+    }
+  ],
+  "intent": "Submitting the Rathna Stores demo checkout shows confirmation without sending a real order or payment.",
+  "requires": [
+    {
+      "kind": "route",
+      "pathname": "/projects/rathna-stores"
+    }
+  ],
+  "ensures": [
+    {
+      "kind": "route",
+      "pathname": "/projects/rathna-stores"
+    }
+  ],
+  "author": {
+    "agent": "reticle-cli",
+    "person": "currstud23123@gmail.com"
+  },
+  "intentId": "flow:drive-submitting-the-rathna-stores-demo-checkout-shows"
+}

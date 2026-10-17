@@ -1,6 +1,7 @@
 import { notFound } from "next/navigation";
 
 import ProjectDetails from "@/components/projects/ProjectDetails";
+import RathnaStoreDemo from "@/components/projects/RathnaStoreDemo";
 import { projects } from "@/data/projects";
 
 export function generateStaticParams() {
@@ -13,6 +14,10 @@ export default async function ProjectPage({ params }: { params: Promise<{ slug: 
 
   if (!project) {
     notFound();
+  }
+
+  if (slug === "rathna-stores") {
+    return <RathnaStoreDemo />;
   }
 
   return <ProjectDetails project={project} />;

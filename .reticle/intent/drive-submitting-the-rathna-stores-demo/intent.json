@@ -1,0 +1,19 @@
+{
+  "intents": {
+    "flow:drive-submitting-the-rathna-stores-demo-checkout-shows": {
+      "declaredAt": 1792250776420,
+      "id": "flow:drive-submitting-the-rathna-stores-demo-checkout-shows",
+      "source": "decided on the dashboard",
+      "state": "declared",
+      "statement": "Submitting the Rathna Stores demo checkout shows confirmation without sending a real order or payment.",
+      "status": "proved",
+      "subject": "drive-submitting-the-rathna-stores-demo",
+      "surface": {
+        "flow": "drive-submitting-the-rathna-stores-demo-checkout-shows"
+      },
+      "updatedAt": 1792250778402
+    }
+  },
+  "subject": "drive-submitting-the-rathna-stores-demo",
+  "version": 1
+}

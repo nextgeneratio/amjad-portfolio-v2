@@ -1,5 +1,18 @@
 {
   "intents": {
+    "inline:adding-a-rathna-stores-cake-updates-the-sample-c-1c5d3f70": {
+      "binding": {
+        "contains": "LKR 1,800",
+        "kind": "text"
+      },
+      "declaredAt": 1792250505614,
+      "id": "inline:adding-a-rathna-stores-cake-updates-the-sample-c-1c5d3f70",
+      "state": "bound",
+      "statement": "Adding a Rathna Stores cake updates the sample cart subtotal.",
+      "status": "proposed",
+      "subject": "unsorted",
+      "updatedAt": 1792250505628
+    },
     "inline:the-portfolio-homepage-has-no-login-or-checkout-4deb9685": {
       "binding": {
         "kind": "allOf",

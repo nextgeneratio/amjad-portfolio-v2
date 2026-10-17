@@ -1,5 +1,80 @@
 {
   "intents": {
+    "inline:a-non-empty-rathna-stores-sample-cart-opens-the-186c6a0f": {
+      "binding": {
+        "contains": "Delivery address",
+        "kind": "text"
+      },
+      "declaredAt": 1792250886144,
+      "id": "inline:a-non-empty-rathna-stores-sample-cart-opens-the-186c6a0f",
+      "provenBy": {
+        "at": 1792250888753,
+        "grade": "presence",
+        "runId": "drive-s1af1d1a4-3f26-4166-87ad-db1681d41d51",
+        "verdictId": "reticle_act_and_wait:1792250888753"
+      },
+      "state": "proved",
+      "statement": "A non-empty Rathna Stores sample cart opens the demo checkout form.",
+      "status": "proved",
+      "subject": "projects",
+      "surface": {
+        "files": [
+          "src/components/projects/RathnaStoreDemo.tsx"
+        ],
+        "route": "/projects/rathna-stores"
+      },
+      "updatedAt": 1792250888767
+    },
+    "inline:adding-the-classic-butter-cake-increments-the-ra-9707942f": {
+      "binding": {
+        "contains": "1 item in your cart",
+        "kind": "text"
+      },
+      "declaredAt": 1792250879670,
+      "id": "inline:adding-the-classic-butter-cake-increments-the-ra-9707942f",
+      "provenBy": {
+        "at": 1792250882024,
+        "grade": "presence",
+        "runId": "drive-s1af1d1a4-3f26-4166-87ad-db1681d41d51",
+        "verdictId": "reticle_act_and_wait:1792250882024"
+      },
+      "state": "proved",
+      "statement": "Adding the Classic Butter Cake increments the Rathna Stores demo cart.",
+      "status": "proved",
+      "subject": "projects",
+      "surface": {
+        "files": [
+          "src/components/projects/RathnaStoreDemo.tsx"
+        ],
+        "route": "/projects/rathna-stores"
+      },
+      "updatedAt": 1792250882040
+    },
+    "inline:proceeding-from-a-non-empty-rathna-stores-cart-o-7a76ceff": {
+      "binding": {
+        "contains": "Delivery address",
+        "kind": "text"
+      },
+      "declaredAt": 1792250515626,
+      "id": "inline:proceeding-from-a-non-empty-rathna-stores-cart-o-7a76ceff",
+      "provenBy": {
+        "at": 1792250517742,
+        "grade": "presence",
+        "runId": "drive-s1af1d1a4-3f26-4166-87ad-db1681d41d51",
+        "verdictId": "reticle_act_and_wait:1792250517742"
+      },
+      "state": "proved",
+      "statement": "Proceeding from a non-empty Rathna Stores cart opens the demo checkout form.",
+      "status": "proved",
+      "subject": "projects",
+      "surface": {
+        "files": [
+          "src/components/projects/RathnaStoreDemo.tsx"
+        ],
+        "route": "/projects/rathna-stores"
+      },
+      "updatedAt": 1792250517756
+    },
     "inline:rathna-stores-portfolio-case-study-describes-a-r-d6474040": {
       "binding": {
         "kind": "allOf",
@@ -35,6 +110,56 @@
       "status": "proposed",
       "subject": "projects",
       "updatedAt": 1792216242395
+    },
+    "inline:submitting-the-rathna-stores-demo-checkout-shows-9c3dcca2": {
+      "binding": {
+        "contains": "Demo order placed successfully",
+        "kind": "text"
+      },
+      "declaredAt": 1792250537566,
+      "id": "inline:submitting-the-rathna-stores-demo-checkout-shows-9c3dcca2",
+      "provenBy": {
+        "at": 1792250539744,
+        "grade": "presence",
+        "runId": "drive-s1af1d1a4-3f26-4166-87ad-db1681d41d51",
+        "verdictId": "reticle_act_and_wait:1792250539744"
+      },
+      "state": "proved",
+      "statement": "Submitting the Rathna Stores demo checkout shows confirmation without sending a real order or payment.",
+      "status": "proved",
+      "subject": "projects",
+      "surface": {
+        "files": [
+          "src/components/projects/RathnaStoreDemo.tsx"
+        ],
+        "route": "/projects/rathna-stores"
+      },
+      "updatedAt": 1792250539762
+    },
+    "inline:submitting-the-sample-rathna-stores-checkout-sho-dd261388": {
+      "binding": {
+        "contains": "Demo order placed successfully",
+        "kind": "text"
+      },
+      "declaredAt": 1792250905454,
+      "id": "inline:submitting-the-sample-rathna-stores-checkout-sho-dd261388",
+      "provenBy": {
+        "at": 1792250907745,
+        "grade": "presence",
+        "runId": "drive-s1af1d1a4-3f26-4166-87ad-db1681d41d51",
+        "verdictId": "reticle_act_and_wait:1792250907745"
+      },
+      "state": "proved",
+      "statement": "Submitting the sample Rathna Stores checkout shows confirmation, clears the demo cart, and does not create a real payment or order.",
+      "status": "proved",
+      "subject": "projects",
+      "surface": {
+        "files": [
+          "src/components/projects/RathnaStoreDemo.tsx"
+        ],
+        "route": "/projects/rathna-stores"
+      },
+      "updatedAt": 1792250907760
     },
     "inline:the-rathna-stores-project-detail-route-renders-i-b3f0bfb1": {
       "binding": {

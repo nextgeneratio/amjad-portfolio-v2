@@ -1,0 +1,63 @@
+{
+  "version": 2,
+  "name": "drive-adding-a-rathna-stores-cake-updates-the-sample-c",
+  "projectId": "amjad-portfolio-0c8d6b8a",
+  "createdAt": 1792250776258,
+  "steps": [
+    {
+      "tool": "reticle_act",
+      "anchor": {
+        "kind": "testid",
+        "value": "store-add-to-cart-butter-cake",
+        "source": {
+          "file": "src/components/projects/RathnaStoreDemo.tsx",
+          "line": 108,
+          "column": 22
+        }
+      },
+      "args": {},
+      "action": "click",
+      "timeoutMs": 8000,
+      "page": "/projects/rathna-stores"
+    },
+    {
+      "tool": "reticle_act",
+      "anchor": {
+        "kind": "testid",
+        "value": "store-proceed-checkout",
+        "source": {
+          "file": "src/components/projects/RathnaStoreDemo.tsx",
+          "line": 181,
+          "column": 16
+        }
+      },
+      "args": {},
+      "action": "click",
+      "expect": {
+        "kind": "text",
+        "contains": "Delivery address"
+      },
+      "timeoutMs": 10000,
+      "page": "/projects/rathna-stores"
+    }
+  ],
+  "startPath": "/projects/rathna-stores",
+  "intent": "Adding a Rathna Stores cake updates the sample cart subtotal.",
+  "requires": [
+    {
+      "kind": "route",
+      "pathname": "/projects/rathna-stores"
+    }
+  ],
+  "ensures": [
+    {
+      "kind": "route",
+      "pathname": "/projects/rathna-stores"
+    }
+  ],
+  "author": {
+    "agent": "reticle-cli",
+    "person": "currstud23123@gmail.com"
+  },
+  "intentId": "flow:drive-adding-a-rathna-stores-cake-updates-the-sample-c"
+}

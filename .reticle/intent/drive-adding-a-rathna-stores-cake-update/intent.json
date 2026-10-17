@@ -1,0 +1,18 @@
+{
+  "intents": {
+    "flow:drive-adding-a-rathna-stores-cake-updates-the-sample-c": {
+      "declaredAt": 1792250776321,
+      "id": "flow:drive-adding-a-rathna-stores-cake-updates-the-sample-c",
+      "state": "declared",
+      "statement": "Adding a Rathna Stores cake updates the sample cart subtotal.",
+      "status": "proposed",
+      "subject": "drive-adding-a-rathna-stores-cake-update",
+      "surface": {
+        "flow": "drive-adding-a-rathna-stores-cake-updates-the-sample-c"
+      },
+      "updatedAt": 1792250776345
+    }
+  },
+  "subject": "drive-adding-a-rathna-stores-cake-update",
+  "version": 1
+}

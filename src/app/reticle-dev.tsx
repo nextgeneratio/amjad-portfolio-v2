@@ -19,12 +19,6 @@ export function ReticleDev() {
         // So a version-skewed pair names the SDK's version instead of "an unknown older wire".
         const sdkVersion = process.env.NEXT_PUBLIC_RETICLE_SDK_VERSION;
         registerStore('theme', themeStore);
-        reticle.connect({
-          projectId: 'amjad-portfolio-0c8d6b8a', ...(url ? { url } : {}),
-          ...(token ? { token } : {}),
-          ...(root ? { root } : {}),
-          ...(sdkVersion ? { sdkVersion } : {}),
-        });
 
         // ── Start with ONE flow. ────────────────────────────────────────────────────────────────
         // Registering a store is the highest-value line here: it lets the agent check what the app
@@ -56,14 +50,38 @@ export function ReticleDev() {
             'project-details-back',
             'project-repository',
             'project-demo',
+            'store-product-butter-cake',
+            'store-product-chocolate-cake',
+            'store-product-ribbon-cake',
+            'store-add-to-cart-butter-cake',
+            'store-add-to-cart-chocolate-cake',
+            'store-add-to-cart-ribbon-cake',
+            'store-proceed-checkout',
+            'store-checkout-form',
+            'store-checkout-name',
+            'store-checkout-email',
+            'store-checkout-address',
+            'store-place-demo-order',
+            'store-order-confirmation',
             'contact-name',
             'contact-email',
             'contact-subject',
             'contact-message',
             'contact-submit',
           ],
-          signals: [],
-          stores: ['theme', 'navigation', 'contact-form'],
+          signals: [
+            'rathna:cart-updated',
+            'rathna:checkout-opened',
+            'rathna:demo-order-placed',
+            'rathna:continue-shopping',
+          ],
+          stores: ['theme', 'navigation', 'contact-form', 'rathna-store'],
+        });
+        reticle.connect({
+          projectId: 'amjad-portfolio-0c8d6b8a', ...(url ? { url } : {}),
+          ...(token ? { token } : {}),
+          ...(root ? { root } : {}),
+          ...(sdkVersion ? { sdkVersion } : {}),
         });
       },
     );

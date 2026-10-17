@@ -1,0 +1,18 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="50%" stop-color="#0ea5e9"/>
+      <stop offset="100%" stop-color="#1d4ed8"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#g)"/>
+  <rect x="90" y="90" width="1020" height="620" rx="32" fill="rgba(15,23,42,0.28)" stroke="rgba(255,255,255,0.28)"/>
+  <rect x="153" y="180" width="280" height="18" rx="9" fill="rgba(255,255,255,0.7)"/>
+  <rect x="153" y="230" width="430" height="18" rx="9" fill="rgba(255,255,255,0.5)"/>
+  <rect x="153" y="290" width="760" height="220" rx="24" fill="rgba(255,255,255,0.08)" stroke="rgba(255,255,255,0.18)"/>
+  <circle cx="986" cy="350" r="94" fill="rgba(255,255,255,0.09)"/>
+  <circle cx="986" cy="350" r="62" fill="rgba(255,255,255,0.14)"/>
+  <rect x="153" y="560" width="180" height="44" rx="22" fill="rgba(255,255,255,0.16)"/>
+  <rect x="365" y="560" width="180" height="44" rx="22" fill="rgba(255,255,255,0.16)"/>
+</svg>

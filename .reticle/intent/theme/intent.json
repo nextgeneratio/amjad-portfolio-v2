@@ -1,0 +1,123 @@
+{
+  "intents": {
+    "inline:on-a-clean-page-session-changing-the-theme-updat-4987768e": {
+      "binding": {
+        "kind": "allOf",
+        "predicates": [
+          {
+            "equals": "light",
+            "kind": "state",
+            "path": "theme",
+            "store": "theme"
+          },
+          {
+            "kind": "element",
+            "query": {
+              "name": "Switch to dark theme",
+              "role": "button"
+            },
+            "state": "visible"
+          }
+        ]
+      },
+      "declaredAt": 1792217545169,
+      "id": "inline:on-a-clean-page-session-changing-the-theme-updat-4987768e",
+      "provenBy": {
+        "at": 1792217545399,
+        "grade": "state",
+        "runId": "drive-lease-691eb02c-38b4-4add-a603-577cd8e9f98b",
+        "verdictId": "reticle_act_and_wait:1792217545399"
+      },
+      "state": "proved",
+      "statement": "On a clean page session, changing the theme updates the subscribed app state and rendered control",
+      "status": "proved",
+      "subject": "theme",
+      "surface": {
+        "files": [
+          "src/components/ui/ThemeToggle.tsx"
+        ]
+      },
+      "updatedAt": 1792217545415
+    },
+    "inline:the-theme-control-updates-the-real-subscribable-e0b8e802": {
+      "binding": {
+        "kind": "allOf",
+        "predicates": [
+          {
+            "equals": "dark",
+            "kind": "state",
+            "path": "theme",
+            "store": "theme"
+          },
+          {
+            "kind": "element",
+            "query": {
+              "name": "Switch to light theme",
+              "role": "button"
+            },
+            "state": "visible"
+          }
+        ]
+      },
+      "declaredAt": 1792217365441,
+      "id": "inline:the-theme-control-updates-the-real-subscribable-e0b8e802",
+      "provenBy": {
+        "at": 1792217366267,
+        "grade": "state",
+        "runId": "drive-s1af1d1a4-3f26-4166-87ad-db1681d41d51",
+        "verdictId": "reticle_act_and_wait:1792217366267"
+      },
+      "state": "proved",
+      "statement": "The theme control updates the real subscribable theme state and the visible control state",
+      "status": "proved",
+      "subject": "theme",
+      "surface": {
+        "files": [
+          "src/components/ui/ThemeToggle.tsx"
+        ]
+      },
+      "updatedAt": 1792217366281
+    },
+    "inline:the-theme-toggle-changes-the-saved-application-t-32e8c32a": {
+      "binding": {
+        "kind": "allOf",
+        "predicates": [
+          {
+            "equals": "light",
+            "kind": "state",
+            "path": "theme",
+            "store": "theme"
+          },
+          {
+            "kind": "element",
+            "query": {
+              "testid": "theme-toggle"
+            },
+            "state": "visible"
+          }
+        ]
+      },
+      "declaredAt": 1792216861919,
+      "id": "inline:the-theme-toggle-changes-the-saved-application-t-32e8c32a",
+      "provenBy": {
+        "at": 1792216863392,
+        "grade": "state",
+        "runId": "drive-s1af1d1a4-3f26-4166-87ad-db1681d41d51",
+        "verdictId": "reticle_act_and_wait:1792216863392"
+      },
+      "state": "proved",
+      "statement": "The theme toggle changes the saved application theme and updates the rendered theme",
+      "status": "proved",
+      "subject": "theme",
+      "surface": {
+        "files": [
+          "src/components/ui/ThemeToggle.tsx"
+        ],
+        "route": "/projects/rathna-stores"
+      },
+      "updatedAt": 1792216863417
+    }
+  },
+  "subject": "theme",
+  "version": 1
+}

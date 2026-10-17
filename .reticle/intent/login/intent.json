@@ -1,0 +1,54 @@
+{
+  "intents": {
+    "inline:the-portfolio-does-not-expose-a-login-route-5cd8e23f": {
+      "binding": {
+        "kind": "allOf",
+        "predicates": [
+          {
+            "kind": "route",
+            "pathname": "/login"
+          },
+          {
+            "contains": "404",
+            "kind": "text"
+          },
+          {
+            "contains": "could not be found",
+            "kind": "text"
+          }
+        ]
+      },
+      "declaredAt": 1792216194771,
+      "id": "inline:the-portfolio-does-not-expose-a-login-route-5cd8e23f",
+      "provenBy": {
+        "at": 1792216194803,
+        "grade": "presence",
+        "runId": "drive-s1af1d1a4-3f26-4166-87ad-db1681d41d51",
+        "verdictId": "reticle_assert:1792216194803"
+      },
+      "state": "proved",
+      "statement": "The portfolio does not expose a login route",
+      "status": "proved",
+      "subject": "login",
+      "surface": {
+        "route": "/login"
+      },
+      "updatedAt": 1792216194812
+    },
+    "inline:visitors-can-open-the-login-page-from-the-portfo-1fe6e8fe": {
+      "binding": {
+        "kind": "route",
+        "pathname": "/login"
+      },
+      "declaredAt": 1792216176806,
+      "id": "inline:visitors-can-open-the-login-page-from-the-portfo-1fe6e8fe",
+      "state": "bound",
+      "statement": "Visitors can open the login page from the portfolio homepage",
+      "status": "proposed",
+      "subject": "login",
+      "updatedAt": 1792216176814
+    }
+  },
+  "subject": "login",
+  "version": 1
+}

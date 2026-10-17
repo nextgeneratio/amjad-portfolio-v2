@@ -1,0 +1,18 @@
+{
+  "intents": {
+    "flow:harness-starts-from-the-first-page--contact": {
+      "declaredAt": 1792232080819,
+      "id": "flow:harness-starts-from-the-first-page--contact",
+      "state": "declared",
+      "statement": "First-time visitor: starts from the first page, reads the labels and follows the obvious path",
+      "status": "proposed",
+      "subject": "harness-starts-from-the-first-page-conta",
+      "surface": {
+        "flow": "harness-starts-from-the-first-page--contact"
+      },
+      "updatedAt": 1792232080824
+    }
+  },
+  "subject": "harness-starts-from-the-first-page-conta",
+  "version": 1
+}

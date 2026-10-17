@@ -1,0 +1,14 @@
+{
+  "projectId": "amjad-portfolio-0c8d6b8a",
+  "projectName": "amjad-portfolio",
+  "orgId": "org_5de641614c2149deb9b23f0a1cae8568",
+  "url": "https://app.reticle.sh",
+  "dashboardUrl": "https://app.reticle.sh/overview?project=amjad-portfolio-0c8d6b8a",
+  "workspace": "currstud23123's workspace",
+  "sync": {
+    "runs": true,
+    "memory": true,
+    "flows": true
+  },
+  "verify": "local"
+}

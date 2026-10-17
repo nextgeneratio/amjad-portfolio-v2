@@ -1,0 +1,84 @@
+{
+  "version": 2,
+  "name": "drive-the-theme-control-updates-the-real-subscribable",
+  "projectId": "amjad-portfolio-0c8d6b8a",
+  "createdAt": 1792217420934,
+  "steps": [
+    {
+      "tool": "reticle_act",
+      "anchor": {
+        "kind": "testid",
+        "value": "theme-toggle",
+        "source": {
+          "file": "src/components/ui/ThemeToggle.tsx",
+          "line": 33,
+          "column": 4
+        }
+      },
+      "args": {},
+      "action": "click",
+      "expect": {
+        "kind": "allOf",
+        "predicates": [
+          {
+            "kind": "state",
+            "store": "theme",
+            "path": "theme",
+            "equals": "dark"
+          },
+          {
+            "kind": "element",
+            "query": {
+              "role": "button",
+              "name": "Switch to light theme"
+            },
+            "state": "visible"
+          },
+          {
+            "kind": "allOf",
+            "predicates": [
+              {
+                "kind": "route",
+                "pathname": "/"
+              },
+              {
+                "kind": "state",
+                "store": "theme",
+                "path": "theme",
+                "equals": "dark"
+              },
+              {
+                "kind": "element",
+                "query": {
+                  "testid": "theme-toggle"
+                },
+                "state": "visible"
+              }
+            ]
+          }
+        ]
+      },
+      "timeoutMs": 6000,
+      "page": "/"
+    }
+  ],
+  "startPath": "/",
+  "intent": "The theme control updates the real subscribable theme state and the visible control state",
+  "requires": [
+    {
+      "kind": "route",
+      "pathname": "/"
+    }
+  ],
+  "ensures": [
+    {
+      "kind": "route",
+      "pathname": "/"
+    }
+  ],
+  "author": {
+    "agent": "reticle-cli",
+    "person": "currstud23123@gmail.com"
+  },
+  "intentId": "flow:drive-the-theme-control-updates-the-real-subscribable"
+}

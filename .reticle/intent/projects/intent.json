@@ -1,0 +1,95 @@
+{
+  "intents": {
+    "inline:rathna-stores-portfolio-case-study-describes-a-r-d6474040": {
+      "binding": {
+        "kind": "allOf",
+        "predicates": [
+          {
+            "kind": "route",
+            "pathname": "/projects/rathna-stores"
+          },
+          {
+            "contains": "Rathna Stores",
+            "kind": "text"
+          },
+          {
+            "contains": "View repository",
+            "kind": "text"
+          },
+          {
+            "absent": true,
+            "contains": "Add to cart",
+            "kind": "text"
+          },
+          {
+            "absent": true,
+            "contains": "Proceed to checkout",
+            "kind": "text"
+          }
+        ]
+      },
+      "declaredAt": 1792216242388,
+      "id": "inline:rathna-stores-portfolio-case-study-describes-a-r-d6474040",
+      "state": "bound",
+      "statement": "Rathna Stores portfolio case study describes a repository and does not expose commerce controls",
+      "status": "proposed",
+      "subject": "projects",
+      "updatedAt": 1792216242395
+    },
+    "inline:the-rathna-stores-project-detail-route-renders-i-b3f0bfb1": {
+      "binding": {
+        "kind": "allOf",
+        "predicates": [
+          {
+            "kind": "route",
+            "pathname": "/projects/rathna-stores"
+          },
+          {
+            "kind": "element",
+            "query": {
+              "name": "Rathna Stores",
+              "role": "heading"
+            },
+            "state": "visible"
+          },
+          {
+            "kind": "element",
+            "query": {
+              "testid": "project-repository"
+            },
+            "state": "visible"
+          },
+          {
+            "equals": "light",
+            "kind": "state",
+            "path": "theme",
+            "store": "theme"
+          },
+          {
+            "absent": true,
+            "kind": "console",
+            "level": "error"
+          }
+        ]
+      },
+      "declaredAt": 1792216942657,
+      "id": "inline:the-rathna-stores-project-detail-route-renders-i-b3f0bfb1",
+      "provenBy": {
+        "at": 1792216942957,
+        "grade": "state",
+        "runId": "drive-s1af1d1a4-3f26-4166-87ad-db1681d41d51",
+        "verdictId": "reticle_assert:1792216942957"
+      },
+      "state": "proved",
+      "statement": "The Rathna Stores project detail route renders its real case study, repository link, and current theme without console errors",
+      "status": "proved",
+      "subject": "projects",
+      "surface": {
+        "route": "/projects/rathna-stores"
+      },
+      "updatedAt": 1792216942968
+    }
+  },
+  "subject": "projects",
+  "version": 1
+}

@@ -1,0 +1,22 @@
+{
+  "intents": {
+    "flow:drive-the-theme-control-updates-the-real-subscribable": {
+      "binding": {
+        "flow": "drive-the-theme-control-updates-the-real-subscribable"
+      },
+      "declaredAt": 1792217420976,
+      "id": "flow:drive-the-theme-control-updates-the-real-subscribable",
+      "source": "decided on the dashboard",
+      "state": "bound",
+      "statement": "The theme control updates the real subscribable theme state and the visible control state",
+      "status": "proved",
+      "subject": "drive-the-theme-control-updates-the-real",
+      "surface": {
+        "flow": "drive-the-theme-control-updates-the-real-subscribable"
+      },
+      "updatedAt": 1792217574536
+    }
+  },
+  "subject": "drive-the-theme-control-updates-the-real",
+  "version": 1
+}

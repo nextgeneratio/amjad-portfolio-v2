@@ -1,0 +1,44 @@
+{
+  "intents": {
+    "inline:the-portfolio-homepage-has-no-login-or-checkout-4deb9685": {
+      "binding": {
+        "kind": "allOf",
+        "predicates": [
+          {
+            "kind": "route",
+            "pathname": "/"
+          },
+          {
+            "contains": "I build practical software that solves real problems.",
+            "kind": "text"
+          },
+          {
+            "absent": true,
+            "contains": "Login",
+            "kind": "text"
+          },
+          {
+            "absent": true,
+            "contains": "Checkout",
+            "kind": "text"
+          }
+        ]
+      },
+      "declaredAt": 1792216165626,
+      "id": "inline:the-portfolio-homepage-has-no-login-or-checkout-4deb9685",
+      "provenBy": {
+        "at": 1792216165868,
+        "grade": "presence",
+        "runId": "drive-s1af1d1a4-3f26-4166-87ad-db1681d41d51",
+        "verdictId": "reticle_assert:1792216165868"
+      },
+      "state": "proved",
+      "statement": "The portfolio homepage has no login or checkout flow entry points",
+      "status": "proved",
+      "subject": "unsorted",
+      "updatedAt": 1792216165871
+    }
+  },
+  "subject": "unsorted",
+  "version": 1
+}

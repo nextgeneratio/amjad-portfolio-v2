@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "origin": "failed-assert",
+  "expected": "not route #contact",
+  "observed": "negated predicate unexpectedly held",
+  "steps": [
+    {
+      "tool": "reticle_act",
+      "anchor": {
+        "kind": "testid",
+        "value": "nav-contact",
+        "source": {
+          "file": "src/components/layout/Navbar.tsx",
+          "line": 25,
+          "column": 8
+        }
+      },
+      "action": "click"
+    }
+  ],
+  "id": "1792232075061-nav-contact-ef2ae99e",
+  "createdAt": 1792232075062,
+  "seen": 1,
+  "lastSeenAt": 1792232075062
+}

@@ -1,0 +1,76 @@
+{
+  "version": 2,
+  "name": "harness-starts-from-the-first-page--contact",
+  "projectId": "amjad-portfolio-0c8d6b8a",
+  "createdAt": 1792232080818,
+  "steps": [
+    {
+      "tool": "reticle_act",
+      "anchor": {
+        "kind": "testid",
+        "value": "nav-contact",
+        "source": {
+          "file": "src/components/layout/Navbar.tsx",
+          "line": 25,
+          "column": 8
+        }
+      },
+      "args": {},
+      "action": "click",
+      "page": "/"
+    },
+    {
+      "tool": "reticle_act",
+      "anchor": {
+        "kind": "testid",
+        "value": "contact-name",
+        "source": {
+          "file": "src/components/sections/Contact.tsx",
+          "line": 123,
+          "column": 14
+        }
+      },
+      "args": {
+        "value": "Alex Johnson"
+      },
+      "action": "fill",
+      "page": "/"
+    },
+    {
+      "tool": "reticle_act",
+      "anchor": {
+        "kind": "testid",
+        "value": "contact-email",
+        "source": {
+          "file": "src/components/sections/Contact.tsx",
+          "line": 137,
+          "column": 14
+        }
+      },
+      "args": {
+        "value": "harness@reticle.dev"
+      },
+      "action": "fill",
+      "page": "/"
+    }
+  ],
+  "startPath": "/#contact",
+  "intent": "First-time visitor: starts from the first page, reads the labels and follows the obvious path",
+  "requires": [
+    {
+      "kind": "route",
+      "pathname": "/#contact"
+    }
+  ],
+  "ensures": [
+    {
+      "kind": "route",
+      "pathname": "/"
+    }
+  ],
+  "author": {
+    "agent": "reticle-cli",
+    "person": "currstud23123@gmail.com"
+  },
+  "intentId": "flow:harness-starts-from-the-first-page--contact"
+}

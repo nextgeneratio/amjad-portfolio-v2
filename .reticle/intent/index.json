@@ -1,0 +1,77 @@
+{
+  "entries": [
+    {
+      "id": "inline:the-portfolio-has-no-checkout-route-or-purchase-c6aae234",
+      "statement": "The portfolio has no checkout route or purchase flow",
+      "status": "proved",
+      "subject": "checkout"
+    },
+    {
+      "id": "flow:drive-the-theme-control-updates-the-real-subscribable",
+      "statement": "The theme control updates the real subscribable theme state and the vis…",
+      "status": "proved",
+      "subject": "drive-the-theme-control-updates-the-real"
+    },
+    {
+      "id": "flow:drive-the-theme-toggle-changes-the-saved-application-t",
+      "statement": "The theme toggle changes the saved application theme and updates the re…",
+      "status": "proved",
+      "subject": "drive-the-theme-toggle-changes-the-saved"
+    },
+    {
+      "id": "flow:harness-starts-from-the-first-page--contact",
+      "statement": "First-time visitor: starts from the first page, reads the labels and fo…",
+      "status": "proposed",
+      "subject": "harness-starts-from-the-first-page-conta"
+    },
+    {
+      "id": "inline:the-portfolio-does-not-expose-a-login-route-5cd8e23f",
+      "statement": "The portfolio does not expose a login route",
+      "status": "proved",
+      "subject": "login"
+    },
+    {
+      "id": "inline:visitors-can-open-the-login-page-from-the-portfo-1fe6e8fe",
+      "statement": "Visitors can open the login page from the portfolio homepage",
+      "status": "proposed",
+      "subject": "login"
+    },
+    {
+      "id": "inline:rathna-stores-portfolio-case-study-describes-a-r-d6474040",
+      "statement": "Rathna Stores portfolio case study describes a repository and does not…",
+      "status": "proposed",
+      "subject": "projects"
+    },
+    {
+      "id": "inline:the-rathna-stores-project-detail-route-renders-i-b3f0bfb1",
+      "statement": "The Rathna Stores project detail route renders its real case study, rep…",
+      "status": "proved",
+      "subject": "projects"
+    },
+    {
+      "id": "inline:on-a-clean-page-session-changing-the-theme-updat-4987768e",
+      "statement": "On a clean page session, changing the theme updates the subscribed app…",
+      "status": "proved",
+      "subject": "theme"
+    },
+    {
+      "id": "inline:the-theme-control-updates-the-real-subscribable-e0b8e802",
+      "statement": "The theme control updates the real subscribable theme state and the vis…",
+      "status": "proved",
+      "subject": "theme"
+    },
+    {
+      "id": "inline:the-theme-toggle-changes-the-saved-application-t-32e8c32a",
+      "statement": "The theme toggle changes the saved application theme and updates the re…",
+      "status": "proved",
+      "subject": "theme"
+    },
+    {
+      "id": "inline:the-portfolio-homepage-has-no-login-or-checkout-4deb9685",
+      "statement": "The portfolio homepage has no login or checkout flow entry points",
+      "status": "proved",
+      "subject": "unsorted"
+    }
+  ],
+  "version": 1
+}

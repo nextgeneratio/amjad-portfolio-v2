@@ -1,0 +1,22 @@
+{
+  "intents": {
+    "flow:drive-the-theme-toggle-changes-the-saved-application-t": {
+      "binding": {
+        "flow": "drive-the-theme-toggle-changes-the-saved-application-t"
+      },
+      "declaredAt": 1792217114420,
+      "id": "flow:drive-the-theme-toggle-changes-the-saved-application-t",
+      "source": "decided on the dashboard",
+      "state": "bound",
+      "statement": "The theme toggle changes the saved application theme and updates the rendered theme",
+      "status": "proved",
+      "subject": "drive-the-theme-toggle-changes-the-saved",
+      "surface": {
+        "flow": "drive-the-theme-toggle-changes-the-saved-application-t"
+      },
+      "updatedAt": 1792217116194
+    }
+  },
+  "subject": "drive-the-theme-toggle-changes-the-saved",
+  "version": 1
+}

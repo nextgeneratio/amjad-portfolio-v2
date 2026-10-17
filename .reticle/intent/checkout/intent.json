@@ -1,0 +1,41 @@
+{
+  "intents": {
+    "inline:the-portfolio-has-no-checkout-route-or-purchase-c6aae234": {
+      "binding": {
+        "kind": "allOf",
+        "predicates": [
+          {
+            "kind": "route",
+            "pathname": "/checkout"
+          },
+          {
+            "contains": "404",
+            "kind": "text"
+          },
+          {
+            "contains": "could not be found",
+            "kind": "text"
+          }
+        ]
+      },
+      "declaredAt": 1792216221585,
+      "id": "inline:the-portfolio-has-no-checkout-route-or-purchase-c6aae234",
+      "provenBy": {
+        "at": 1792216221616,
+        "grade": "presence",
+        "runId": "drive-s1af1d1a4-3f26-4166-87ad-db1681d41d51",
+        "verdictId": "reticle_assert:1792216221615"
+      },
+      "state": "proved",
+      "statement": "The portfolio has no checkout route or purchase flow",
+      "status": "proved",
+      "subject": "checkout",
+      "surface": {
+        "route": "/checkout"
+      },
+      "updatedAt": 1792216221624
+    }
+  },
+  "subject": "checkout",
+  "version": 1
+}

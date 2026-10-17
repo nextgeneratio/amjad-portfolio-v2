@@ -1,0 +1,96 @@
+{
+  "version": 2,
+  "name": "drive-the-theme-toggle-changes-the-saved-application-t",
+  "projectId": "amjad-portfolio-0c8d6b8a",
+  "createdAt": 1792217114418,
+  "steps": [
+    {
+      "tool": "reticle_act",
+      "anchor": {
+        "kind": "testid",
+        "value": "theme-toggle",
+        "source": {
+          "file": "src/components/ui/ThemeToggle.tsx",
+          "line": 32,
+          "column": 4
+        }
+      },
+      "args": {},
+      "action": "click",
+      "expect": {
+        "kind": "allOf",
+        "predicates": [
+          {
+            "kind": "state",
+            "store": "theme",
+            "path": "theme",
+            "equals": "light"
+          },
+          {
+            "kind": "element",
+            "query": {
+              "testid": "theme-toggle"
+            },
+            "state": "visible"
+          },
+          {
+            "kind": "allOf",
+            "predicates": [
+              {
+                "kind": "route",
+                "pathname": "/projects/rathna-stores"
+              },
+              {
+                "kind": "element",
+                "query": {
+                  "role": "heading",
+                  "name": "Rathna Stores"
+                },
+                "state": "visible"
+              },
+              {
+                "kind": "element",
+                "query": {
+                  "testid": "project-repository"
+                },
+                "state": "visible"
+              },
+              {
+                "kind": "state",
+                "store": "theme",
+                "path": "theme",
+                "equals": "light"
+              },
+              {
+                "kind": "console",
+                "level": "error",
+                "absent": true
+              }
+            ]
+          }
+        ]
+      },
+      "timeoutMs": 5000,
+      "page": "/projects/rathna-stores"
+    }
+  ],
+  "startPath": "/projects/rathna-stores",
+  "intent": "The theme toggle changes the saved application theme and updates the rendered theme",
+  "requires": [
+    {
+      "kind": "route",
+      "pathname": "/projects/rathna-stores"
+    }
+  ],
+  "ensures": [
+    {
+      "kind": "route",
+      "pathname": "/projects/rathna-stores"
+    }
+  ],
+  "author": {
+    "agent": "copilot-cli",
+    "person": "currstud23123@gmail.com"
+  },
+  "intentId": "flow:drive-the-theme-toggle-changes-the-saved-application-t"
+}

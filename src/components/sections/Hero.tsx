@@ -68,10 +68,10 @@ export default function Hero() {
               <div className="relative overflow-hidden rounded-2xl border border-slate-200 bg-slate-50 p-4 dark:border-slate-700 dark:bg-slate-800">
                 <div className="relative h-52 w-full overflow-hidden rounded-2xl bg-gradient-to-br from-slate-900 via-slate-800 to-sky-700">
                   <Image
-                    src="/images/profile.svg"
-                    alt="Stylized initials for Amjad Hasan"
-                    width={720}
-                    height={720}
+                    src="/images/amjad-hasan.png"
+                    alt="Amjad Hasan"
+                    width={768}
+                    height={1318}
                     className="h-full w-full object-cover"
                     priority
                     suppressHydrationWarning
